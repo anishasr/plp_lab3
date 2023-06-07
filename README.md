@@ -15,10 +15,10 @@
  ```c
 // first expression false, skips second
 if(10 % 2 != 0 && 10/0 == 0) {
-    printf("\nthe program still runs successfully because the second expression is not evaluated\n");
+    printf("\nsecond expression not evaluated\n");
 // first expression true, skips second
 } else if(10 % 2 == 0 || 10/0 == 0) {
-    printf("\nthe program still runs successfully because the second expression is not evaluated\n");
+    printf("\nsecond expression not evaluated\n");
 }
 ```
 

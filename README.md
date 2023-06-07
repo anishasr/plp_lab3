@@ -13,22 +13,23 @@
 
 ## Code Example
  ```c
-// && - first expression false, skips second
+// first expression false, skips second
 if(10 % 2 != 0 && 10/0 == 0) {
     printf("\nthe program still runs successfully because the second expression is not evaluated\n");
-// || - first expression true, skips second
+// first expression true, skips second
 } else if(10 % 2 == 0 || 10/0 == 0) {
     printf("\nthe program still runs successfully because the second expression is not evaluated\n");
 }
 ```
 
 4) How does your programming language deal with the “dangling else” problem? 
-<br><br>
+<br><br> The 'dangling else' problem refers an issue when using nested if/else statements and there is ambiguity about which 'if' the 'else' belongs to. C usess indentation and the brackets { } to resolve this ambiguity.
 
-5) If your language supports switch or case statements, do you have to use
-“break” to get out of them? Can you use “continue” to have all of them
-evaluated?
+5) If your language supports switch or case statements, do you have to use “break” to get out of them? Can you use “continue” to have all of them evaluated?
 <br><br>
+You do have to use 'break' to get out of a switch stateement, otherwise all other cases will be evaluated. You cannot use 'continue' in a switch statement in C, only in loops.
 
 ## Sources
 https://www.w3schools.com/c/c_booleans.php
+https://www.geeksforgeeks.org/short-circuit-evaluation-in-programming/
+https://www.tutorialspoint.com/cprogramming/switch_statement_in_c.htm

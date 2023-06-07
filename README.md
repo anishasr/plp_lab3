@@ -1,7 +1,7 @@
 # Programming Language Project - Lab 3
 
 1) What are the boolean values in your language? 
-<br> In C, boolean values are represented as 1 (true) or 0 (false). Booleans are not a built-in type as in other languages such as Python (bool) and Java (Boolean).
+<br><br>In C, boolean values are represented as 1 (true) or 0 (false). Booleans are not a built-in type as in other languages such as Python (bool) and Java (Boolean).
 
 2) What types of conditional statements are available in your language? 
 <br><br>if/else and if/elseif/else are the available conditional statements in C. There are no other C-specific conditional statements such as the 'unless' statement in Perl.
@@ -27,9 +27,10 @@ if(10 % 2 != 0 && 10/0 == 0) {
 
 5) If your language supports switch or case statements, do you have to use “break” to get out of them? Can you use “continue” to have all of them evaluated?
 <br><br>
-You do have to use 'break' to get out of a switch stateement, otherwise all other cases will be evaluated. You cannot use 'continue' in a switch statement in C, only in loops.
+You do have to use 'break' to get out of a switch statement, otherwise all other cases will be evaluated; this is called 'fall-through behavior'. You cannot use 'continue' in a switch statement in C, only in loops.
 
 ## Sources
 https://www.w3schools.com/c/c_booleans.php
 https://www.geeksforgeeks.org/short-circuit-evaluation-in-programming/
 https://www.tutorialspoint.com/cprogramming/switch_statement_in_c.htm
+https://www.geeksforgeeks.org/fallthrough-in-c/

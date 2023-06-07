@@ -8,8 +8,8 @@
 
 3) Does your language use short-circuit evaluation? Include an example.
 <br><br> Yes, C does use short-circuit evaluation when evaluating boolean expressions. If the result of two operands can be determined by evaluating just the first expression, the second operand will not be evaluated. 
-<br> For example, in the case of an '&&' (and) statement, if the first expression is false, the second expression does not need to be checked. 
-<br> In the case of an '||' (or) statement, if the first expression is true, the second expression does not need to be checked. 
+<br><br> For example, in the case of an '&&' (and) statement, if the first expression is false, the second expression does not need to be checked. 
+<br><br> In the case of an '||' (or) statement, if the first expression is true, the second expression does not need to be checked. 
 
 ## Code Example
  ```c
